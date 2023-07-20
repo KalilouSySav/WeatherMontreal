@@ -1,0 +1,87 @@
+/*indiquer plusieurs styles pour le texte et le contenu*/
+.xpetite {
+    font-size: 0.6em;
+    color: white
+}
+.petite {
+    font-size: 0.7em;
+    color: #ada1d7;
+}
+.moyenne {
+    font-size: 1.2em;
+    
+}
+.moyenne2 {
+    font-size: 0.8em;
+    
+}
+
+.grande {
+    font-size: 3em;
+    
+}
+
+.tgrande {
+    font-size: 6em;
+}
+.souligne {
+    text-decoration: underline;
+}
+/*background-color: #352F66;*/
+/* le css pour transformer une liste en un menu au fond marron 
+et au texte blanc  avec des items(li) possédant un margin
+ vers le bas et le haut*/
+
+ .menu {
+    margin: 0.2em 0;
+    padding: 0.18em;
+    padding-right: 2em;
+    background-color: #262633;
+    color: #a9a9b5;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+/*css pour faire un menu flottant*/
+.menu2 {
+    position: fixed;
+}
+
+
+/*mettre le texte en blanc et le fond en bleu*/
+.principal {
+    background-color: #352F66;
+    color: white;
+}
+/*css pour centrer le contenu de la page et lui donner une marge personnaliser*/
+.contenu {
+    margin: 0 auto;
+    width: 97%;
+}
+
+/*css pour donner des bords arrondis et une apparence allongée verticalement aux cellules
+d'un tableau et un fond un peu différent du tableau (utiliser pour page statistique)*/
+.cellule {
+    border-radius: 20px;
+    background-color: #48319D;
+    padding: 0.5em;
+    margin-right: 17%;
+    height: 100%;
+    border: 1px solid #6C4ACE
+}
+/*css pour formater les divisions de la page statistique
+pour la moyenne, la température du jour le plus chaud et la température
+ du jour le plus froid*/
+.division {
+  background: linear-gradient(to top right, #4a309f 60%,  #352F66 70%);
+  border-radius: 10% 10% 10% 10%;
+  padding-left: 0.6em;
+  padding-bottom: 0.3em;
+}
+/*css pour faire une animation au click
+en donnant un fond de couleur et un texte blanc à un lien au click*/
+li:active {
+    background-color: #352F66;
+    color: white;
+}

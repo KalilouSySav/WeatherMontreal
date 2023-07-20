@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="/style/meteo.css">
+    <script src="../js/bootstrap.js"></script>
+</head>
+<body>
+    <body class="principal">
+    <br>
+    <div class="contenu  h-100">
+        <div class="row">
+            <div class="col-2">
+                <div class="menu2">
+                    <p class="h6 text-center" id="dateAjd">1 janvier 2023</p>    
+                <ul class="list-group">
+                    <li id="accueil" class="list-group-item menu"><img width="30px" src="/image/Home Apps.png"> &nbsp;Accueil</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Snowflake Round Blue.png">&nbsp;   Janvier </li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Snowman.png"> &nbsp; Février</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Leaves Green.png">&nbsp;   Mars</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/WeatherIcon - 1-17.png">&nbsp;   Avril</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Group.png">&nbsp;   Mai</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Vector.png">&nbsp;   Juin</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Beach Ball.png">&nbsp;   Juillet</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/popsicle 1.png">&nbsp;   Août</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Leaf Round Filled Orange.png">&nbsp;   Septembre</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Pumpkin Filled Orange.png">&nbsp;   Octobre</li>
+                    <li name="mois" class="list-group-item menu"><img width="30px" src="/image/Tree 2 Filled Green.png">&nbsp;   Novembre</li>
+                    <li name="mois"class="list-group-item menu"><img width="30px" src="/image/Present Filled.png"> Décembre</li>
+                </ul>
+                </div>
+            </div>
+            
+            
+            <div class="col-1">&nbsp;</div>
+            <div class="col-8">
+                <div class="container">
+                                                                   
+                    <div class="row">
+                        <div class="col-6">
+                            <P class="grande">Montréal</P>
+                            <label id="tempjour" for=""  class="tgrande">&nbsp;19°</label></div>
+                        <div class="col-6">
+                            <span id="imangemeteo">
+                            <img src="/image/WeatherIcon-1-22.png" alt="" width="60%">
+                            </span>
+                            <br>
+                            <span class="moyenne">
+                                max:<span id="tempMax">19°</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                min:<span id="tempMin">19°</span>
+                            <span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row moyenne">
+                        <div class="col-6"><p id="idsemainecourante">semaine courante</p></div>
+                        <div class="col-6"><p id="idjouravenir">jours à venir</p></div>
+                    </div>
+                    
+
+                    <div class="row">
+                        <div class="col">
+                            <table id="tabsemainecourante" class="table principal table-borderless" >
+                                <tr>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine1">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>                                    
+                                </tr>
+                                
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <table id="tabsemaineprochaine" class="table principal table-borderless" >
+                                <tr>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine2">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>                                    
+                                </tr>
+                                
+                            </table>
+                        </div>
+                    </div>                   
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <table id="tabsemainesuivante" class="table principal table-borderless" >
+                                <tr>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                    <td name="semaine3">
+                                        <div>dim</div>
+                                        <div><img width="60%" src="/image/nuageux.png" alt=""></div>
+                                        <div>19°</div>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </div>
+                    </div>                    
+                                                                              
+                    <div id="divdemain" class="row moyenne">
+                        <div class="col-10">
+                            <p>demain</p>
+                        </div>
+                        <div class="col-2">
+                            <label id="tdemain" for="">&nbsp;19°</label>
+                        </div>
+                    </div>
+                    <div id="divapresdemain" class="row moyenne">
+                        <div class="col-10">
+                            <p>après demain</p>
+                        </div>
+                        <div class="col-2">
+                            <label id="tapresd" for="">&nbsp;19°</label>
+                        </div>
+                    </div>
+                    <div id="divdans3j" class="row moyenne">
+                        <div class="col-10">
+                            <p>dans 3 jours</p>
+                        </div>
+                        <div class="col-2">
+                            <label id="tdans3j" for="">&nbsp;19°</label>
+                        </div>
+                    </div>
+                    <div class="row moyenne">
+                        <div class="col-12">
+                            <p id="test"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">&nbsp;
+               
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <div class="row">&nbsp;</div>
+                <img id="btnPlus" width="80%" src="/image/Button.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="/script/meteo2.js"></script>
+</body>
+</html>
